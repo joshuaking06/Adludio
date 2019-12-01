@@ -1,20 +1,17 @@
 const permute = (string) => {
-	if (string.length < 2) return string // This is our break condition
+	if (string.length < 2) return string
+	const permutations = []
 
-	var permutations = [] // This array will hold our permutations
+	for (let i = 0; i < string.length; i++) {
+		const char = string[i]
 
-	for (var i = 0; i < string.length; i++) {
-		var char = string[i]
+		// to avoid duplicates check if character used already
+		if (string.indexOf(char) != i) continue
+		// if used already, continue will skip over this iteration
 
-		// Cause we don't want any duplicates:
-		if (
-			string.indexOf(char) != i // if char was used already
-		)
-			continue // skip it this time
+		const remainingString = string.slice(0, i) + string.slice(i + 1, string.length)
 
-		var remainingString = string.slice(0, i) + string.slice(i + 1, string.length) //Note: you can concat Strings via '+' in JS
-
-		for (var subPermutation of permute(remainingString))
+		for (const subPermutation of permute(remainingString))
 			permutations.push(char + subPermutation)
 	}
 	return permutations
