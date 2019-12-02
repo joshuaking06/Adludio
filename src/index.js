@@ -12,6 +12,9 @@ const Login = () => {
 					If you are a member, please <a href="#">login</a>.
 				</p>
 			</div>
+			<div className="right">
+				<img src="./asset3.png" />
+			</div>
 		</div>
 	)
 }
