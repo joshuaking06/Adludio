@@ -1,7 +1,7 @@
 * {
 	font-family: 'Open Sans', sans-serif;
 	body {
-		background-image: url('./asset2.png');
+		background-image: url('../asset2.png');
 		background-size: cover;
 		.container {
 			height: 66vh;
@@ -70,7 +70,7 @@
 			.left {
 				border-top-left-radius: 20px;
 				border-bottom-left-radius: 20px;
-				background-image: url('./asset1.jpg');
+				background-image: url('../asset1.jpg');
 				background-size: cover;
 				background-position: center center;
 				background-repeat: no-repeat;
