@@ -31,8 +31,14 @@ const Login = () => {
 						<input type="password" name="password" />
 					</label>
 				</form>
-				<div className="buttons">
+				<div className="buttons1">
 					<button id="register">Register</button>
+				</div>
+				<div className="buttons2">
+					<button id="google">
+						<img src="https://www.seekpng.com/png/small/3-33501_google-logo-png-transparent-background-google-g-logo.png" />
+						<span>Sign in with Google</span>
+					</button>
 				</div>
 			</div>
 		</div>
