@@ -11,6 +11,8 @@
 			margin-top: 10%;
 			border-radius: 20px;
 			.left {
+				border-top-left-radius: 20px;
+				border-bottom-left-radius: 20px;
 				background-image: url('./asset1.jpg');
 				background-size: cover;
 				background-position: center center;
