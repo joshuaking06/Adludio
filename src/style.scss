@@ -1,14 +1,36 @@
 * {
+	font-family: 'Open Sans', sans-serif;
 	body {
 		background-image: url('./asset2.png');
 		background-size: cover;
 		.container {
 			height: 66vh;
-			width: 66%;
+			width: 70%;
 			background-color: white;
 			margin: auto;
 			margin-top: 10%;
 			border-radius: 20px;
+			.left {
+				background-image: url('./asset1.jpg');
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+				height: 100%;
+				width: 40%;
+				color: white;
+				h2 {
+					padding: 20px;
+					padding-top: 80px;
+					font-size: 30px;
+					text-transform: uppercase;
+				}
+				p {
+					padding-left: 20px;
+					a {
+						color: white;
+					}
+				}
+			}
 		}
 	}
 }

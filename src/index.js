@@ -5,7 +5,13 @@ import './style.scss'
 const Login = () => {
 	return (
 		<div className="container">
-			<h1>Hello World</h1>
+			<div className="left">
+				<h2>Redefining Mobile Advertising</h2>
+				<p>Please use this form to register</p>
+				<p>
+					If you are a member, please <a href="#">login</a>.
+				</p>
+			</div>
 		</div>
 	)
 }
