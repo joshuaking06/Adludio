@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 import './style.scss'
 const Login = () => {
 	return (
-		<div>
+		<div className="container">
 			<h1>Hello World</h1>
 		</div>
 	)

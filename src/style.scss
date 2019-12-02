@@ -2,5 +2,13 @@
 	body {
 		background-image: url('./asset2.png');
 		background-size: cover;
+		.container {
+			height: 66vh;
+			width: 66%;
+			background-color: white;
+			margin: auto;
+			margin-top: 10%;
+			border-radius: 20px;
+		}
 	}
 }
